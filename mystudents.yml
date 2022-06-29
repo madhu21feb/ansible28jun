@@ -1,0 +1,24 @@
+---
+- students: 
+  - name: anil
+    phone: 666565868
+    address: 
+        doorno: 55
+        streetno: 2
+        pincode: 521815
+
+  - name: sunil
+    phone: 436567
+    address:
+        doorno: 55
+        streetno: 2
+        pincode: 521815
+ 
+        
+
+  - name: venil
+    phone: 456547
+    address: 
+        doorno: 55
+        streetno: 2
+        pincode: 52181

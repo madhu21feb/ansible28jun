@@ -1,0 +1,10 @@
+tasks:
+  - name: i want to install tree
+    apt:
+      name: tree
+      state: present
+
+  - name: i want to install
+    apt:
+      name: git
+      state: present
