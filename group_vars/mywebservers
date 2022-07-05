@@ -1,0 +1,5 @@
+---
+var: valu
+mywebpackonubuntu: apache2
+mywebpackonredhat: httpd
+myjavapack: openjdk-8-jre
