@@ -1,6 +1,7 @@
 ---
 - hosts: all
   become: yes
+  gather_facts: yes
   tasks:
   - name: i want to install apache2 webserver
     apt:
@@ -12,3 +13,6 @@
     service:
        name: apache2
        state: restarted
+
+
+
