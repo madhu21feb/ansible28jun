@@ -2,8 +2,4 @@
 - hosts: 172.31.8.202
   become: yes
   tasks:
-  - name: craete a file on ansible node side
-    file:
-      path: /home/ubuntu/testfile
-      state: touch
-      
+  - include_tasks: myfiles.yml
