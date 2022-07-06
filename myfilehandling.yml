@@ -13,3 +13,13 @@
     copy: 
       src: myindex.html
       dest: /var/www/html/index.html
+
+  - name: copy my index.j2 file into node side
+    template: 
+         src: myindex.j2
+         dest: /var/www/html/index.html
+  - name: download internet file
+    get_url:
+        url: https://madhu13april22.s3.us-west-2.amazonaws.com/mahaLogin-2.0.war
+        dest: /home/ubuntu/
+        force_basic_auth: yes  
